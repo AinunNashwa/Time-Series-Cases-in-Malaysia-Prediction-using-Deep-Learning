@@ -11,7 +11,7 @@
 # Time-Series Cases in Malaysia Prediction using Deep Learning
 
 ### Descriptions
-1) The objectives of this project is to predict the new cases of Covid-19 in Malaysia
+1) The objectives of this project is to develop a deep learning model using LSTM neural network to predict new cases in Malaysia.
 2) The datasets contain approximately 700 training data and 100 testing data
 3) It is a Time-Series problem 
 
