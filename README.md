@@ -13,7 +13,9 @@
 ### Descriptions
 1) The objectives of this project is to develop a deep learning model using LSTM neural network to predict new cases in Malaysia.
 2) The datasets contain approximately 700 training data and 100 testing data
-3) It is a Time-Series problem 
+3) It is a Time-Series problem and cases_new data is being trained and evaluated as per request
+4) The model is being trained using Seqential, LSTM, Dropout and Dense Layer with 500 epochs
+5) The model analysis is based on `mean_squared_error`,`mean_absolute_error`, `mean_absolute_percentage_error`
 
 ### Results
 `Model`
