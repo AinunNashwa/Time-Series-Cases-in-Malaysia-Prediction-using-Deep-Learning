@@ -28,13 +28,12 @@
 
 
 
-`Training Data`: Accuracy vs Loss
+`Training Data`: Mape vs Loss
 
-![Accuracy vs Loss](https://user-images.githubusercontent.com/106902414/175311307-27a93a1c-d5c5-46e8-a77d-37b39c7a3de2.PNG)
 
 `Tensor Board`
 
-![Tensorboard](https://user-images.githubusercontent.com/106902414/175311400-537e0db2-4273-4980-a54d-b6a1d8190086.PNG)
+
 
 
 
