@@ -20,34 +20,54 @@
 ### Results
 `Model`
 
+![model](https://user-images.githubusercontent.com/106902414/175518804-21d7914e-9554-40e2-86c0-e0f1fd9052e9.PNG)
 
 
 
 `Model Architecture`
 
 
+![model_architecture](https://user-images.githubusercontent.com/106902414/175518828-d11a8cd3-31d4-4679-8114-c45cda54ec67.png)
+
+`Model Analysis`
+
+![graph](https://user-images.githubusercontent.com/106902414/175519182-a69faaa9-2d0c-41bb-979d-d14c5b6c2ed2.png)
 
 
+`Model Evaluation`
 
+![The error values](https://user-images.githubusercontent.com/106902414/175519137-f3ee6ba5-5425-4e35-9276-74008f3b7deb.PNG)
 
 
 
 `Training Data`: Mape vs Loss
+
+![Loss vs Mape](https://user-images.githubusercontent.com/106902414/175518873-d8cd9321-3c5c-422f-84a4-7c7a271bc2f3.PNG)
+
 
 
 `Tensor Board`
 
 
 
+![tensorboard](https://user-images.githubusercontent.com/106902414/175519202-ebb5db7e-0ab8-4baa-a6bc-6dd95fdde840.PNG)
 
 
 
 ### Discussion
-1) 
+1) The result produced is quite good which is MAPE is less than 1%
+2) The model can predict well based on the accuracy produced
+3) The data preprocessing involved is only fill the Nan using interpolation of data: `df.interpolate
+4) The drop out rate is being decrease to increase the accuracy
+5) Also the number of epochs is being increase when lowered the dropout rate
+6) Final result, the model is being trained with <=64 number of node in each layer,only 1 LSTM layer and 1 Dense layer
 
 *Suggestions to Improve the Performance of Model*
 
-1) 
+1) Collect more training data
+2) Make sure no extreme values in the dataset
+3) Increase the complexity of the model layer
+4) Used correct number of window size
 
 ### Credits
 `You can load the dataset from here`
