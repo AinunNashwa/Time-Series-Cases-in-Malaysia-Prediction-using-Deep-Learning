@@ -57,7 +57,7 @@
 ### Discussion
 1) The result produced is quite good which is MAPE is less than 1%
 2) The model can predict well based on the accuracy produced
-3) The data preprocessing involved is only fill the Nan using interpolation of data: `df.interpolate
+3) The data preprocessing involved is only fill the Nan using interpolation of data: `df.interpolate`
 4) The drop out rate is being decrease to increase the accuracy
 5) Also the number of epochs is being increase when lowered the dropout rate
 6) Final result, the model is being trained with <=64 number of node in each layer,only 1 LSTM layer and 1 Dense layer
