@@ -65,9 +65,8 @@
 *Suggestions to Improve the Performance of Model*
 
 1) Collect more training data
-2) Make sure no extreme values in the dataset
-3) Increase the complexity of the model layer
-4) Used correct number of window size
+2) Increase the complexity of the model layer
+3) Used correct number of window size
 
 ### Credits
 `You can load the dataset from here`
